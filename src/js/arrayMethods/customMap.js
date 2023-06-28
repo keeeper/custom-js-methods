@@ -1,6 +1,3 @@
-import { numbersArray } from "../data/arrays";
-import { multiplyBy2 } from "../utils/functions";
-
 function customMap(array, callback) {
   const result = [];
 
@@ -8,6 +5,7 @@ function customMap(array, callback) {
     const transformedValue = callback(array[i], i, array);
     result.push(transformedValue);
   }
+  
   return result;
 }
 
