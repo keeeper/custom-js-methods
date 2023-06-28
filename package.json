@@ -1,0 +1,13 @@
+{
+  "name": "Custom-JS-methods",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node --require esbuild-register esbuild.config.js",
+    "build": "node --require esbuild-register esbuild.config.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.18.10",
+    "esbuild-register": "^3.4.2",
+    "fs-extra": "^11.1.1"
+  }
+}
